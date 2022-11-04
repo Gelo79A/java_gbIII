@@ -4,7 +4,7 @@ import lombok.Data;
 import lombok.ToString;
 import org.springframework.context.annotation.Scope;
 
-@Data
+//@Data
 @ToString
 public class Product {
 
