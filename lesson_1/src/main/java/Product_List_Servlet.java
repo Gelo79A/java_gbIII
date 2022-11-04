@@ -29,7 +29,7 @@ public class Product_List_Servlet extends HttpServlet {
             productList.add(new Product(8,"title", "cost"));
             productList.add(new Product(9,"title", "cost"));
             productList.add(new Product(10,"title", "cost"));
-// Подскажите, как сделать вывод в столбец?
+// Подскажите, как сделать вывод в столбец? И вообще криво както помойму
             resp.getWriter().println("<h1>" + productList.toString() + "</h1>");
 
         resp.getWriter().close();
